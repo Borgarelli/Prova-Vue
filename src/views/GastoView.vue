@@ -2,7 +2,8 @@
     <div class="gastos">
         <form @submit.prevent="novoGasto">
             <label>Modelo</label>
-            <input type="text" placeholder="Modelo" v-model="anotacao.descricao" />
+            <input type="number" placeholder="Valor" v-model="gasto.valor" />
+            <input type="text" placeholder="Descrição" v-model="gasto.descricao" />
             
             <button class="waves-effect waves-light btn-small">
                 Salvar
@@ -36,7 +37,7 @@ export default {
     data() {
         return{
             gastos: [],
-            valor: null,
+            valor: '',
             gasto: {
                 descricao: ''
             }
