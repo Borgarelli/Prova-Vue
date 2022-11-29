@@ -1,7 +1,7 @@
 <template>
     <div>
-        <p>Nome: <input type="text" v-model="nome"></p>
-        <p>Senha: <input type="password" v-model="senha"></p>
+        <p>Nome: <input type="text" v-model="nome"></p> <!-- User admin-->
+        <p>Senha: <input type="password" v-model="senha"></p> <!-- Senha admin -->
         <button @click="loginUsuario">Ok</button>
         {{status}}
     </div>    

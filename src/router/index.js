@@ -27,8 +27,12 @@ const routes = [
         component: () => import('../views/TesteView.vue')
       },
       {
-        path: '/anotacao',
+        path: '/anotacao', //Adicionando a nova aba de anotação
         component: () => import('../views/AnotacaoView.vue')
+      },
+      {
+        path: '/gasto',
+        component: () => import('../views/GastoView.vue')
       }
     ]
   },
