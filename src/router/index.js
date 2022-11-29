@@ -33,6 +33,10 @@ const routes = [
       {
         path: '/gasto',
         component: () => import('../views/GastoView.vue')
+      },
+      {
+        path: '/lance',
+        component: () => import('../views/LancesView.vue')
       }
     ]
   },

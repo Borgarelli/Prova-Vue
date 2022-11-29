@@ -2,7 +2,7 @@
     <div class="gastos">
         <form @submit.prevent="novoGasto">
             <label>Modelo</label>
-            <input type="number" placeholder="Valor" v-model="gasto.valor" />
+            <input type="number" placeholder="Valorr" v-model="gasto.valor" />
             <input type="text" placeholder="Descrição" v-model="gasto.descricao" />
             
             <button class="waves-effect waves-light btn-small">
@@ -25,7 +25,7 @@
                     <td>{{ gasto.descricao }}</td>
                 </tr>
             </tbody>
-      </table>
+        </table>
     </div>
 </template>
 

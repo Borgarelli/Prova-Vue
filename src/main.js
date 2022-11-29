@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://8080-borgarelli-provaspringv-0fod0gwejhh.ws-us77.gitpod.io' //Assim que rodar o backend e rodar ele em uma porta em si, basta copiar o link da porta e adiciona-lo aqui
+axios.defaults.baseURL = 'https://8080-mineda-projetolabiv-ut1qj6ye9bw.ws-us77.gitpod.io' //Assim que rodar o backend e rodar ele em uma porta em si, basta copiar o link da porta e adiciona-lo aqui
 
 axios.interceptors.request.use(config => {
   if(store.state.token) {
