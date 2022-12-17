@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const http = axios.create({
-  baseURL: "https://8080-mineda-projetolabiv-ut1qj6ye9bw.ws-us77.gitpod.io",
+  baseURL: "https://8080-borgarelli-provaspringv-b21dwbezjlp.ws-us79.gitpod.io", //Não esquecer de alterar o link dentro da pasta Service tbm
 });
